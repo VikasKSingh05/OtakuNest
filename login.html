@@ -1,0 +1,38 @@
+<!-- This is the login page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtakuNest Login</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .C{
+            background-color:palevioletred;
+            background-image: url(JJK.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="C" style="text-align: center; font-size: 200px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:black; outline: auto;text-shadow: 2px 2px 0 white">
+    Login Form 
+    </h1>
+    <div style="display: flex;justify-content: space-around;align-items: center;">
+    <form action="#">
+        <label for="N" style="color: aliceblue;">Name</label>
+        <input type="text" id="N" name="Name" placeholder="Enter your name" required>
+        <label for="pass"  style="color: aliceblue;">Password</label>
+        <input type="password" id="pass" name="password" placeholder="enter your password" required>
+    </form>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; font-size: x-large;">
+        <button type="button" onclick="window.open('landing.html','_blank')"style="cursor: pointer;">Register</button>
+    </div>
+       
+</body>
+</html>
