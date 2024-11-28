@@ -1,0 +1,222 @@
+<!-- This is the main page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the title. -->
+    <title>OtakuNest</title>
+    <!-- This is CSS -->
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body::-webkit-scrollbar{
+            width: 4px;
+        }
+        body::-webkit-scrollbar-track{
+            background: #1e1e24;
+        }
+        body::-webkit-scrollbar-thumb{
+            background: #6649b8;
+        }
+
+        ul{
+            font-size: 20px; list-style: circle; text-align: center; display: block; line-height: 2.5em;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding:10px;
+            background-color: black;
+            width: 100%;
+            position: sticky;
+            top: 0;
+
+        }
+        #Logo{
+            height: 100px;
+        }
+        th{
+            background-color: rgb(56, 56, 255);
+        }
+        th,td{
+            padding: 12px;
+            border: 1px solid wheat;
+        }
+     </style>
+</head>
+<body style="background-color: black; color: aliceblue;">
+
+    <!-- This is header -->
+    <header>
+        <img id="Logo"; src="Header/Logo.png" />
+        <!-- This is navbar -->
+        <nav>
+            <ul style="display: flex; justify-content: space-around; list-style: none; gap: 20px; padding: 20px ;">
+                <li><a href="login.html" style="color: aliceblue; text-decoration: none;">Login</a></li>
+                <li><a href="#about" style="text-decoration: none; color: aliceblue;">About</a></li>
+                <li><a href="#contact" style="text-decoration: none; color: aliceblue;">Support</a></li>
+                <li><a href="#product" style="text-decoration: none; color: aliceblue;">Product</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="text-align: center; margin-bottom: 100px;">
+        <h1 style="font-size: 100px; color: yellow; margin-top: 50px; font-family:'Courier New', Courier, monospace ;">
+            Welcome to OtakuNest
+        </h1>
+        </br>
+        </br>
+        <div style="display: flex; justify-content: space-around; padding: 20px;">
+            <img src="Header/secgif2.gif" style="height: 200px">
+            <p style="font-size: 25px; font-family:cursive;">
+                Your ultimate destination for all things anime, manga, and Japanese pop culture! Whether you're a seasoned fan or just starting your journey, we've got something for every otaku. Explore, connect, and immerse yourself in a community where passion meets fandom.
+            </p>
+        </div>
+    </section>
+
+    </hr>
+    <!-- This is Features section -->
+    <div id="feature">
+        <h2 style="text-align: center; font-size: 75px; font-family: 'Courier New', Courier, monospace;background-color: rgb(0, 0, 85);outline: auto; margin-top: 100px; margin-bottom: 75px;">Features</h2>
+        <ul >
+            <li>Extensive Anime Library</li>
+            <li>Watchlists & Favorites</li>
+            <li>Subbed and Dubbed Versions</li>
+            <li>Community Forums</li>
+            <li>Character Bios & Info</li>
+            <li>Anime Wallpapers & Fan Art</li>
+        </ul>
+    </div>
+
+    <!-- Table Section -->
+    <section style="margin-top: 95px; display: flex; justify-content:center; margin-bottom: 75px;">
+        <table style="border-collapse: collapse; font-size: 20px;">
+            <th>
+                Products
+            </th>
+            <th>
+                Price
+            </th>
+            <tr>
+                <td>Anime Merchandise</td>
+                <td>$10-$50</td>
+            </tr>
+            <tr>
+                <td>
+                    Custom Fan Art
+                </td>
+                <td>
+                    $30
+                </td>
+            </tr>
+            <tr>
+                <td>
+                Streaming Access
+                </td>
+            <td>
+                $5/month
+            </td>
+            </tr>
+        </table>
+
+
+    </section>
+    <section style="margin-top: 95px;">
+
+        <!-- Image Gallery -->
+
+        <h2 id="product" style="text-align: center; font-size: 75px; font-family: 'Courier New', Courier, monospace;background-color: rgb(0, 0, 85);outline: auto;">Product & Crew</h2>
+        <title>Image Gallery</title>
+        <img src="Product/Product1.png" width="100%">
+        <img src="Product/Product2.png" width="100%"  >
+        <img src="Product/Product3.png" width="100%" >
+        <img src="Cast/Cast1.png" width="100%" style="margin-top: 75px;">
+        <img src="Cast/Cast2.png" width="100%" >
+        <img src="Cast/Cast3.png" width="100%" >
+    </section>
+
+    <!-- This is about us section -->
+    <section style="margin-top: 100px; margin-bottom: 100px;">
+        <h2 id="about" style="text-align: center; font-size: 75px; font-family: 'Courier New', Courier, monospace;background-color: rgb(0, 0, 85);outline: auto;">About Us</h2>
+        <br>
+        <p style="font-family: cursive;padding: 5px; font-size: 20px;padding: 25px;">At <em>OtakuNest</em>, we believe in <strong>fostering a space where everyone—from casual viewers to hardcore collectors—can connect, share their experiences, and deepen their love for the art and stories that define the otaku world. Whether you're here for reviews, recommendations, or just to geek out over your favorite series, you'll find a home with us.</strong>
+
+        Join us as we explore the vast world of anime, manga, and beyond—one episode, one chapter, and one fan at a time. Welcome to the nest!</p>
+    </section>
+
+<!-- This is testimonial section  -->
+<section>
+    <h2 id="about" style="text-align: center; font-size: 75px; font-family: 'Courier New', Courier, monospace;background-color: rgb(0, 0, 85);outline: auto;">Testimonials</h2>
+    <br>
+    <div style="display: flex; justify-content: space-around">
+    <div style="padding: 150px;">
+        <p style="font-size: 25px;">Zatch: </p>
+        <blockquote><p>Services are amazing</p></blockquote>
+    </br>
+        <p style="font-size: 25px;">Sam:</p>
+        <blockquote><p>Website is really smooth</p></blockquote>
+    <br>
+        <p style="font-size: 25px;">Alexa:</p>
+        <blockquote><p>Products are at a nominal price</p></blockquote>
+    </div>
+    <form action="#" id="contact" style="margin-bottom: 100px; margin-top: 100px;">
+        <div style="display: block; align-items: center;">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        </div>
+        <div style="display: block;">
+        <label for="mail">Email
+        </label>
+        <input type="email" id="mail" name="email" placeholder="Your email">
+        </div>
+        <div style="display: block;">
+        <label for="num">Number</label>
+        <input type="number" id="num" name="number" placeholder="Your number">
+        </div>
+        <textarea rows="10" cols="20" name="message">Share a message</textarea>
+        <div style="display: block;">
+        <p>Do you like UI/UX?</p>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="ques">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="ques">
+        </div>
+        <div style="display: block;">
+        <p>Favourite anime</p>
+        <input type="checkbox" id="1" name="1">
+        <label for="1">Deathnote</label>
+        <input type="checkbox" id="2" name="2">
+        <label for="2">Hunter X Hunter</label>
+        <input type="checkbox" id="3" name="3">
+        <label for="3">One Piece</label>
+        </div>
+        <button type="button" style="cursor: pointer;">Submit</button>
+    </form>
+</div>
+
+<hr>
+
+    <!-- This is video section -->
+    <div style="display: flex; justify-content: space-around;">
+    <iframe width="500" height="500" src="https://www.youtube.com/embed/PRdOhypquzE?si=mMJGStGlkd6jbLgg" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay="autoplay"></iframe>
+    <video src="video1.mp4" width="600" height="700"autoplay="autoplay" loop muted controls ></video>
+    </div>
+<hr>
+<!-- This is footer section -->
+    <footer style=" margin-bottom: 5px;padding: 25px;">
+        <div style="display: flex; justify-content: space-between;">
+            <div style="font-size: 25px;">Contact Information</div>
+            <a href="https://copyright.gov.in/" style="color: aliceblue; text-decoration: none; font-size: 25px;">Copyright</a>
+            <img src="Footer/footerlogo1.png" height="25px">
+            <img src="Footer/footerlogo2.png" height="25px">
+        </div>
+    </footer>
+</body>
+</html>
