@@ -1,3 +1,26 @@
-OtakuNest is a platform to surf your favourite anime and get the details about it.
-Note: This was just a demo project. Images are used in place of the links of the respective anime.
-Further changes will be made soon!
+# 🌸 OtakuNest - Your Anime Surfing Paradise
+
+**OtakuNest** is a sleek, responsive anime-surfing website built using pure **HTML**, **CSS**, and **JavaScript**. It's designed for anime lovers to explore, discover, and bookmark their favorite shows.  
+*Note: This version uses placeholder images and demo content while original content is being prepared.*
+
+---
+
+## 🚀 Features
+
+- 🎴 Home page with featured anime cards
+- 🔍 Search functionality to find anime titles
+- 🎨 Clean and modern UI design
+- 🖼️ Placeholder content (demo-ready)
+- 🌙 Dark-mode ready (planned for future)
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – for structured markup
+- **CSS3** – for styling and animations
+- **JavaScript (Vanilla)** – for interactivity
+
+---
+📜 License
+This project is open-source and available under the MIT License.
